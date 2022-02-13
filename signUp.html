@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signUp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms_container">
+        <div class="signUp">
+            <form action="signUp.html" id="signup_form"  class="signup_form" >
+                <h1>Sign up</h1>
+                <div class="input_fields">
+                    <i class="fas fa-user"></i>
+                    <input id="username" name="username" type="text" placeholder="Username" required>
+                </div>
+                <div class="input_fields">
+                    <i class="fas fa-envelope"></i>
+                    <input id="email" name="email" type="email" placeholder="Email Id" required>
+                </div>
+                <div class="input_fields">
+                    <i class="fas fa-lock"></i>
+                    <input id="password" name="password" type="password" placeholder="Password" required>
+                </div>
+                <div class="check_box">
+                  <input value="checked" id="checkbox" type="checkbox"
+                  checked>
+                  <label for="checkbox">I agree to all the <a href="#">Terms and Condition</a></p>
+                </div>
+                <div class="submit">
+                    <button id="submit" type="submit"> create your account</button>
+                </div>
+                <p class="social_text">or sign Up with</p>
+                <div class="social_media">
+                    <a href="#" class="social_icon">
+                        <i class="fab fa-google"></i>
+                    <a href="#" class="social_icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social_icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    </a>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="signUp.js"></script>
+</html>
